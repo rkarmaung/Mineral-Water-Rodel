@@ -12,7 +12,7 @@ burgerBtn[0].addEventListener("click", function(){
 	    burgerContent[0].style.transform = "perspective(1200px) rotateX(90deg)";
 	    x--;
     }
-})
+});
 
 
 
@@ -21,4 +21,4 @@ window.addEventListener("mouseup", function(e){
     if(e.target != burgerContent[0]){
 	    burgerContent[0].style.transform = "perspective(1200px) rotateX(90deg)";
     }
-})
+});
