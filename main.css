@@ -91,6 +91,8 @@ nav{
     display: grid;
     justify-items: center;
     align-items: center;
+	
+	cursor: pointer;
 }
 
 .burger1, 
