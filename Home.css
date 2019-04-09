@@ -1,0 +1,183 @@
+/* Section 1 deliveryform & bgImg*/
+main{
+display: grid;
+justify-items: center;
+align-items: center;
+}
+
+.deliverForm-bgImg{
+    width: 100%;
+    height: 1210px;
+    background-color: #333;
+    background-image: url("pics/water2.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 0 0 85% 85% / 10%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.deliverForm-header{
+    width: 380px;
+    height: 600px;
+    background-color: #000041;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 
+5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 
+5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.deliveryForm{
+	width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type=text], 
+option, 
+select, 
+[type=tel], 
+[type=number]{
+    width: 80%;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #c6c6c6;
+    background-color: transparent;
+    color: #555; 
+}
+
+
+@media only screen and (min-width: 600px) {
+    .deliverForm-bgImg{
+        background-image: url("pics/water10.jpeg");
+    }
+
+    .deliverForm-header{
+    width: 100vw;
+    height: 280px;
+    background-color: #000041;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 
+5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 
+5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+    .deliveryForm{
+        background-color: #868686;
+        width: 98%;
+        border-radius: 10px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    input[type=text], 
+    option, 
+    select, 
+    [type=tel], 
+    [type=number]{
+        width: 300px;
+        height: 50px;
+        margin: 15px;
+        padding: 5px;
+        font-size: 20px;
+        border: none;
+        border-radius: 30px;
+        background-color: #f2f2f2;
+        color: #555; 
+    }
+
+}
+
+
+
+input[type=text], 
+option, 
+select, 
+[type=tel], 
+[type=number]:focus{
+    outline: none;
+}
+
+
+
+/*Section 2 & 3pics*/
+.sec2{
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.sec2Img1{
+    width: 200px;
+    height: 150px;
+    border-radius: 50% 5%;
+-webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 43px -27px rgba(0,0,0,0.31); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 43px -27px rgba(0,0,0,0.31);
+}
+
+.sec2Img2{
+    width: 200px;
+    height: 150px;
+    border-radius: 60% / 40%;
+-webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.sec2Img3{
+    width: 150px;
+    height: 200px;
+    border-radius: 60%;
+-webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 
+2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+/* Section3*/
+.sec3{
+    text-align: center;
+    width: 400px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000041;
+    border-radius: 85% 85% 0 0/ 10%;
+}
+
+.sec3A{
+    width: 90%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin: 5%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
