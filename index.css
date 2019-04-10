@@ -59,7 +59,7 @@ select,
 
 @media only screen and (min-width: 600px) {
     .deliverForm-bgImg{
-        background-image: url("pics/water10.jpeg");
+        background-image: url(https://rkarmaung.github.io/Mineral-Water-Rodel/pics/water10.jpeg);
     }
 
     .deliverForm-header{
