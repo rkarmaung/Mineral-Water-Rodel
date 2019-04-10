@@ -1,0 +1,54 @@
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #d7d7d7;
+}
+
+p{
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding: 20px 0 ;
+}
+
+
+.sec2{
+    width: 405px;
+    background-color: #f2f2f2; 
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	border-radius: 50% 50% 0 0 / 2%;  
+}
+
+.card{
+    margin-top: 100px;
+    width: 350px;
+    border: 1px solid #85b0be;
+}
+
+.ourmissionImg{
+    width: 348px;
+    height: 225px;
+}
+
+.ourmissionLabel{
+    padding: 30px;
+}
+
+.sec3Img{
+    width: 401px;
+    margin: 100px 0;
+    border-radius: 0 0 65% 65% / 10%;
+}
+
+.sec3{
+    padding-top: 50px;
+}
+
+.photo{
+    width: 300px;
+    height: 350px;
+    background-color: grey;
+    margin-top: 100px;
+}

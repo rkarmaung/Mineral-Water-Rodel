@@ -1,0 +1,78 @@
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+h2{
+    color: #f2f2f2; 
+}
+
+
+.hoverUp{
+    width: 300px;
+    border: 1.5px solid #999;
+    margin: 50px 0 0 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("pics/VisitingCard.jpg");
+    background-size: 50%;
+    transition: all .6s ease;
+}
+
+p{
+    line-height: 25px;
+    color: #777;
+}
+
+.hoverUp:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #A4A4A4; 
+    box-shadow: 5px 5px 15px 5px #A4A4A4;
+    
+	-ms-transform: scale(0.25); /* IE 9 */
+	-webkit-transform: scale(0.25); /* Safari 3-8 */
+	transform: scale(1.2); 
+	transition: all .6s ease;
+
+    color: #f2f2f2;
+
+}
+
+.sec2{
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3ffff; 
+    width: 402px;
+    border-radius: 65% 65% 65% 65% / 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px #A4A4A4; 
+    box-shadow: 5px 5px 15px 5px #A4A4A4;
+}
+
+.sendMsg{
+    margin-top: 80px;
+}
+
+input[type=text], textarea{
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    color: #333;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:#f2f2f2; 
+}
+
+input[type=text], textarea{
+    outline: none;
+}
+
+input:hover{
+    transform: scale(1.2);
+}
+ 
+textarea:hover{
+    transform: scale(1.2);
+}
